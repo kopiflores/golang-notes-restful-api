@@ -6,9 +6,11 @@ import (
 )
 
 type Note struct {
-	ID      uint   `json:"id"`
-	Title   string `json:"title"`
-	Content string `json:"content"`
+	ID       uint   `json:"id"`
+	Title    string `json:"title"`
+	Content  string `json:"content"`
+	Tag      string `json:"tag"`
+	Category string `json:"category"`
 }
 
 type Agenda struct {
